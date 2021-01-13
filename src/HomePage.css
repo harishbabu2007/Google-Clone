@@ -1,0 +1,82 @@
+.homepage {
+  display: flex;
+  justify-content: center;
+}
+
+.homepage__main {
+  text-align: center;
+  margin-top: 200px;
+}
+
+.homepage__input {
+  display: flex;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 40px;
+  width: 200%;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.homepage__input_home {
+  display: flex;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 40px;
+  width: 500px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.homepage__input_home > input {
+  flex: 1;
+  border: none;
+  padding: 5px;
+  font-size: 15px;
+  outline: none;
+}
+
+@media (max-width: 790px) {
+  .homepage__input {
+    width: 200%;
+  }
+  .homepage__input_home {
+    width: 330px;
+  }
+  .img {
+    object-fit: contain;
+    width: 250px;
+  }
+}
+
+.homepage__input > form > input {
+  flex: 1;
+  border: none;
+  padding: 5px;
+  font-size: 15px;
+  outline: none;
+}
+
+.homepage__input > .search {
+  margin-right: 10px;
+  color: gray;
+}
+
+.homepage__buttons {
+  display: space-between;
+  margin-top: 30px;
+}
+
+.homepage__buttons > button {
+  margin-right: 10px;
+  background-color: #f2f4f4;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.2s;
+}
+
+.homepage__buttons > button:hover {
+  background-color: lightgray;
+}
