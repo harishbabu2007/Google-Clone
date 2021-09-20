@@ -2,4 +2,4 @@
 Google clone created using react js by harish
 
 # deployed on firebase
-gle-clone.web.app
+https://gle-clone.web.app
